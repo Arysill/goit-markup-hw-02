@@ -72,11 +72,12 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .btn-hero-info {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -89,35 +90,31 @@ body {
   background: #404bbf;
 }
 /**------------------------section information--------------------------*/
-.features-section {
+.features-info-section {
 }
 .text-features {
 }
-.features-list {
+.features-list-info {
 }
 .link-info {
 }
 .text-info {
-  text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
-.title-info {
+.title-info-parag {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 /**-------------------section  what are we doing-------------------------*/
-.photo {
+.photo-what-doing {
 }
 .photo-text {
-  text-transform: capitalize;
-  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;

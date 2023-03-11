@@ -9,19 +9,11 @@ body {
 .list {
   list-style: none;
 }
-/**-------------------------HEADER --------------------------*/
+/**-------------------------HEADER Potfolio --------------------------*/
 .header {
 }
 .header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-}
-.header-logo-studio {
-  font-family: "Raleway", sans-serif;
+   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -29,15 +21,36 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
+.header-logo-web {
+   font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+
+}
+
 .header-list {
 }
-.header-link {
-  font-weight: 500;
+ .header-text{
+   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+ }
+ .header-text:is(:hover, :focus){
+  color: #404bbf;
+ }
+.header-link {
 }
+
+.header-link:is(:hover, :focus){
+color: #404BBF;
+}
+
 .address-list {
 }
 .visit-list {
@@ -54,12 +67,14 @@ body {
 }
 .header-adress:is(:hover, :focus) {
   color: #404bbf;
-}
+} 
 
 /**-------------------------BTN --------------------------*/
 .btn-info {
+  background-color#2e2f42 
 }
-.text-btn-info {
+.text-btn-info{
+   
 }
 .btn-list {
 }
@@ -114,16 +129,18 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+   text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer-logo-studio {
+.footer-logo-web{
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #4D5AE5;
+
 }
 
 .footer-title {

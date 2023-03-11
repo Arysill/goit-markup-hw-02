@@ -1,7 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-
-  color: #434455;
 }
 .link {
   text-decoration: none;
@@ -9,17 +7,21 @@ body {
 .list {
   list-style: none;
 }
+
 /**-------------------------HEADER Web-site --------------------------*/
 .header {
 }
 .header-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 .header-logo-web {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -29,13 +31,20 @@ body {
 }
 .header-list {
 }
-.header-link {
+.header-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-text:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+.header-link {
+}
+
 .address-list {
 }
 .visit-list {
@@ -45,6 +54,7 @@ body {
 
 .header-adress {
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -145,13 +155,16 @@ body {
   background: #2e2f42;
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-logo-web {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -159,6 +172,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .title-footer {
   font-size: 16px;
   line-height: 1.5;

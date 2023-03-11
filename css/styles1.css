@@ -76,7 +76,7 @@ body {
   color: #ffffff;
 }
 .btn-hero-info {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -98,10 +98,12 @@ body {
 .link-info {
 }
 .text-info {
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 .title-info {
@@ -114,6 +116,8 @@ body {
 .photo {
 }
 .photo-text {
+  text-transform: capitalize;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;

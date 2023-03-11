@@ -85,7 +85,7 @@ color: #404BBF;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+  background:  #4d5ae5;
   cursor: pointer;
 }
 .btn-links:is(:hover, :focus) {
@@ -98,6 +98,7 @@ color: #404BBF;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background:  #4d5ae5;
   cursor: pointer;
 }
 /**-----------------------PHOTO WITH TEXT --------------------------*/
@@ -105,7 +106,7 @@ color: #404BBF;
 }
 .img-link {
 }
-.text-item {
+.photo-text-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;

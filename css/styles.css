@@ -1,3 +1,11 @@
+:root{
+ --main-title-color:#2e2f42;
+ --second-title-color:#404BBF;
+ --main-btn-color:#ffff;
+ --second-btn-color:#4d5ae5;
+ --main-logo-color: #4d5ae5;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -19,7 +27,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .header-logo-web {
    font-family: "Raleway", sans-serif;
@@ -28,7 +36,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--main-logo-color);
 
 }
 
@@ -39,16 +47,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-title-color);
  }
  .header-text:is(:hover, :focus){
-  color: #404bbf;
+  color: var(--second-title-color);
  }
 .header-link {
 }
 
 .header-link:is(:hover, :focus){
-color: #404BBF;
+color: var(--second-title-color);
 }
 
 .address-list {
@@ -66,12 +74,12 @@ color: #404BBF;
   color: #434455;
 }
 .header-adress:is(:hover, :focus) {
-  color: #404bbf;
+  color: var(--second-title-color);
 } 
 
 /**-------------------------BTN --------------------------*/
 .btn-info {
-  background-color#2e2f42 
+  background-color var(--main-title-color);
 }
 .text-btn-info{
    
@@ -84,12 +92,12 @@ color: #404BBF;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:#ffff ;
-  background:  #4d5ae5;
+  color:var(--main-btn-color);
+  background: var(--second-btn-color);
   cursor: pointer;
 }
 .btn-links:is(:hover, :focus) {
-  background: #404bbf;
+  background: var(--second-title-color) ;
 }
 .btn-link {
   font-family: "Roboto", sans-serif;
@@ -97,8 +105,8 @@ color: #404BBF;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:#ffff ;
-  background:  #4d5ae5;
+  color:var(--main-btn-color);
+  background: var(--second-btn-color);
   cursor: pointer;
 }
 /**-----------------------PHOTO WITH TEXT --------------------------*/
@@ -111,18 +119,18 @@ color: #404BBF;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .title-photos {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-title-color);
 }
 
 /**----------------FOOTER-----------------------*/
 .footer {
-  background: #2e2f42;
+  background: var(--main-title-color);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -140,7 +148,7 @@ color: #404BBF;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: var(--main-logo-color);
 
 }
 
